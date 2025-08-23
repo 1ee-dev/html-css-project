@@ -206,7 +206,7 @@ a {
 
 /* ==================== Section 1 Styles ==================== */
 .section-1 {
-  background-image: url('../images/section-1-bg.jpg');
+  background-image: url('../images/section-1-bg.avif');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -350,42 +350,42 @@ a {
 }
 
 .s3-img1 {
-  background-image: url('../images/s3-img1.png');
+  background-image: url('../images/s3-img1.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s3-img2 {
-  background-image: url('../images/s3-img2.png');
+  background-image: url('../images/s3-img2.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s3-img3 {
-  background-image: url('../images/s3-img3.png');
+  background-image: url('../images/s3-img3.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s3-img4 {
-  background-image: url('../images/s3-img4.png');
+  background-image: url('../images/s3-img4.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s3-img5 {
-  background-image: url('../images/s3-img5.png');
+  background-image: url('../images/s3-img5.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s3-img6 {
-  background-image: url('../images/s3-img6.png');
+  background-image: url('../images/s3-img6.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -473,7 +473,7 @@ a {
 }
 
 .s5-right-container .s5-img {
-  background-image: url('../images/s5-img.png');
+  background-image: url('../images/s5-img.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -509,7 +509,7 @@ a {
 
 /* ==================== Section 6 Styles ==================== */
 .section-6 {
-  background-image: url('../images/s6-img.png');
+  background-image: url('../images/s6-img.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -625,7 +625,7 @@ a {
 
 /* ==================== Section 8 Styles ==================== */
 .section-8 {
-  background-image: url('../images/s8-img.png');
+  background-image: url('../images/s8-img.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -670,14 +670,14 @@ a {
 }
 
 .s8-img1 {
-  background-image: url('../images/s8-img1.png');
+  background-image: url('../images/s8-img1.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s8-img2 {
-  background-image: url('../images/s8-img2.png');
+  background-image: url('../images/s8-img2.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -753,21 +753,21 @@ a {
 }
 
 .s9-img1 {
-  background-image: url('../images/s9-img1.png');
+  background-image: url('../images/s9-img1.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s9-img2 {
-  background-image: url('../images/s9-img2.png');
+  background-image: url('../images/s9-img2.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s9-img3 {
-  background-image: url('../images/s9-img3.png');
+  background-image: url('../images/s9-img3.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -893,21 +893,21 @@ a {
 }
 
 .s10-img1 {
-  background-image: url('../images/s10-img1.png');
+  background-image: url('../images/s10-img1.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s10-img2 {
-  background-image: url('../images/s10-img2.png');
+  background-image: url('../images/s10-img2.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .s10-img3 {
-  background-image: url('../images/s10-img3.png');
+  background-image: url('../images/s10-img3.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -921,7 +921,7 @@ a {
 }
 
 .footer-img {
-  background-image: url('../images/footer-img.png');
+  background-image: url('../images/footer-img.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
