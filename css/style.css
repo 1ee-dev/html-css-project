@@ -71,12 +71,12 @@ a {
 
 .card:hover {
   color: #fff;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .card:hover p {
   color: #ffffffcc;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .card::after {
@@ -89,7 +89,7 @@ a {
   background-color: rgb(240, 117, 117);
   border-radius: 10px;
   z-index: -1;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .card:hover::after {
@@ -162,7 +162,7 @@ a {
   bottom: -4px;
   width: 0;
   height: 2px;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .link:hover::after {
@@ -286,7 +286,7 @@ a {
 .s2-card:hover a,
 .s2-card:hover i {
   color: #fff;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /* ==================== Section 3 Styles ==================== */
@@ -301,29 +301,41 @@ a {
   margin: auto;
 }
 
-.s3-img-container {
+.s3-img {
   float: left;
-  background-color: rgba(0, 0, 0, 0.4);
   width: 300px;
+  height: 200px;
   border-radius: 10px;
   margin: 0 25px 50px 25px;
-  padding: 32px 0;
-  position: relative;
 }
 
-.s3-img-container h2 {
+.s3-img-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 32px 0;
+  opacity: 0;
+  transition: 0.15s;
+}
+
+.s3-img-content:hover {
+  opacity: 1;
+}
+
+.s3-img-content h2 {
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
 }
 
-.s3-img-container p {
+.s3-img-content p {
   color: #ffffffcc;
-  font-size: 14px;
+  font-size: 12px;
   margin: 32px 0;
 }
 
-.s3-img-container i {
+.s3-img-content i {
   background-color: #fff;
   border-radius: 10px;
   padding: 5px 10px;
@@ -331,22 +343,8 @@ a {
   width: 40px;
 }
 
-.s3-img-container a {
+.s3-img-content a {
   color: rgb(240, 117, 117);
-}
-
-.s3-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.s3-img-container:hover .s3-img {
-  z-index: -1;
 }
 
 .s3-img1 {
@@ -420,7 +418,7 @@ a {
 
 .s4-card:hover i {
   color: #fff;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /* ==================== Section 5 Styles ==================== */
@@ -504,7 +502,7 @@ a {
 
 .s5-circle:hover {
   background-color: rgb(240, 117, 117);
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 /* ==================== Section 6 Styles ==================== */
@@ -578,7 +576,7 @@ a {
   background-color: rgb(240, 117, 117, 0.2);
   border-radius: 10px;
   z-index: -1;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .s7-card:hover::after {
@@ -729,7 +727,7 @@ a {
   background-color: rgb(240, 117, 117, 0.2);
   border-radius: 10px;
   z-index: -1;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .s9-card:hover::after {
@@ -851,7 +849,7 @@ a {
   background-color: rgb(240, 117, 117, 0.2);
   border-radius: 10px;
   z-index: -1;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .s10-card:hover::after {
@@ -943,7 +941,7 @@ a {
   border-radius: 50%;
   color: #fff;
   margin: 0 5px;
-  transition: 0.25s;
+  transition: 0.15s;
 }
 
 .footer-links a i {
