@@ -18,6 +18,25 @@ body {
   text-align: center;
 }
 
+.overlay {
+  position: relative;
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlay * {
+  position: relative;
+  z-index: 1;
+}
+
 h1,
 h2,
 h3,
@@ -71,12 +90,10 @@ a {
 
 .card:hover {
   color: #fff;
-  transition: 0.15s;
 }
 
 .card:hover p {
   color: #ffffffcc;
-  transition: 0.15s;
 }
 
 .card::after {
@@ -250,7 +267,7 @@ a {
 }
 
 .section-1 button:hover {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 /* ==================== Section 2 Styles ==================== */
@@ -516,19 +533,6 @@ a {
   overflow: auto;
   padding: 64px 15%;
   color: #fff;
-  position: relative;
-  z-index: -1;
-}
-
-.section-6::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: -1;
 }
 
 .section-6 .s6-item {
@@ -632,24 +636,10 @@ a {
   overflow: auto;
   padding: 64px 10%;
   color: #fff;
-  position: relative;
-  z-index: -1;
-}
-
-.section-8::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: -1;
 }
 
 .s8-item {
   text-align: left;
-  z-index: 1;
   float: left;
   width: 40%;
   margin: 30px 5%;
