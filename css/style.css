@@ -246,6 +246,8 @@ a {
 }
 
 .section-1 p {
+  width: 600px;
+  margin: auto;
   margin-bottom: 16px;
   color: #ffffffcc;
 }
