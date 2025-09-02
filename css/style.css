@@ -169,8 +169,10 @@ a {
 }
 
 .link {
-  color: #fff;
   position: relative;
+  display: block;
+  line-height: 1;
+  color: #fff;
 }
 
 .link::after {
@@ -178,7 +180,7 @@ a {
   background-color: #fff;
   position: absolute;
   left: 0;
-  bottom: -2px;
+  bottom: -4px;
   width: 0;
   height: 2px;
   transition: 0.15s;
@@ -199,8 +201,8 @@ a {
   top: 150%;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 160px;
-  padding: 0 16px;
+  width: 200px;
+  padding: 0 24px;
   border-radius: 10px;
   visibility: hidden;
   opacity: 0;
@@ -213,10 +215,12 @@ a {
 }
 
 .dropdown a {
-  display: block;
-  margin: 16px 0;
+  margin: 24px 0;
   color: #222;
-  border-radius: 10px;
+}
+
+.dropdown a::after {
+  bottom: -6px;
 }
 
 .dropdown a:hover::after {
