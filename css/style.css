@@ -598,6 +598,11 @@ a {
 .s7-card h2 {
   font-size: 24px;
   margin-bottom: 16px;
+  transition: 0.15s;
+}
+
+.s7-card:hover h2 {
+  color: rgb(240, 117, 117);
 }
 
 .s7-card .description {
@@ -631,10 +636,6 @@ a {
 .s7-card button:hover {
   background-color: rgb(240, 117, 117);
   color: #fff;
-}
-
-.s7-card:hover h2 {
-  color: rgb(240, 117, 117);
 }
 
 /* ==================== Section 8 Styles ==================== */
