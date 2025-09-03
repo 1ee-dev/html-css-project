@@ -449,12 +449,13 @@ a {
 /* ==================== Section 5 Styles ==================== */
 .section-5 {
   height: 100vh;
+  width: 1000px;
+  margin: auto;
 }
 
 .s5-left-container {
   text-align: left;
   float: left;
-  margin-left: 20%;
 }
 
 .s5-section-title {
@@ -476,8 +477,8 @@ a {
 }
 
 .s5-left-container p {
-  width: 500px;
   color: #666;
+  width: 500px;
   font-size: 14px;
   margin-bottom: 32px;
 }
@@ -492,7 +493,6 @@ a {
 
 .s5-right-container {
   float: right;
-  margin-right: 20%;
 }
 
 .s5-right-container .s5-img {
